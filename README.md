@@ -42,18 +42,7 @@ Enter some text to the file and do some more operations:
 0items 21 Jun 21:55 courses
 > touch syllabus.txt
 > ls
-0items 21 Jun 22:10 courses
-0B     21 Jun 22:15 syllabus.txt
-> edit syllabus.txt
-Please enter some text to overwrite the file content:
 
-This course starts at 14:10 on every Thursday.
-> ls
-0items 21 Jun 22:10 courses
-46B    21 Jun 22:15 syllabus.txt
-> mov syllabus.txt courses
-> ls
-1items 21 Jun 21:56 courses
 > cd courses
 > touch schedule.txt
 > ls
