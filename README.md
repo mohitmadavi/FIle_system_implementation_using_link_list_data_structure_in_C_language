@@ -15,39 +15,39 @@ struct Node* child;
 
 When we run our program, we should see an empty command line waiting for our command. Let’s assume your file-folder structure is empty at beginning (In your actual submission, you will start with a sample file-folder structure.). Then, suppose we enter a creating new directory command:
 
-> mkdir courses
+> mkdir sem1
 
 Then you should create a folder structure variable with necessary attributes. Then, if we call “ls”, you should list the files and folders inside the current folder like following:
 
-> mkdir courses
+> mkdir sem1
 > ls
-0items 21 Jun 21:55 courses
+0items 21 Jun 21:55 sem1
 >
 
 Let’s create a file and list again:
 
-> mkdir courses
+> mkdir sem1
 > ls
-0items 21 Sep 21:55 courses
-> touch syllabus.txt
+0items 21 Sep 21:55 sem1
+> touch data_structures.txt
 > ls
-0items 21 Jun 22:10 courses
-0B     21 Jun 22:15 syllabus.txt
+0items 21 Jun 22:10 sem1
+0B     21 Jun 22:15 data_structures.txt
 >
 
 Enter some text to the file and do some more operations:
 
-> mkdir courses
+> mkdir sem1
 > ls
-0items 21 Jun 21:55 courses
-> touch syllabus.txt
+0items 21 Jun 21:55 sem1
+> touch data_structures.txt
 > ls
 
-> cd courses
-> touch schedule.txt
+> cd sem1
+> touch dbms.txt
 > ls
-46B    21 Jun 22:01 syllabus.txt
-0B     21 Jun 22:04 schedule.txt
+46B    21 Jun 22:01 data_structures.txt
+0B     21 Jun 22:04 dbms.txt
 > pwd
 /courses
 > cdup
@@ -55,8 +55,8 @@ Enter some text to the file and do some more operations:
 1items 21 Jun 21:55 courses
 > lsrecursive
 1items 21 Jun 21:55 courses
-|_46B    21 Jun 22:01 syllabus.txt
-|_0B     21 Jun 22:04 schedule.txt
+|_46B    21 Jun 22:01 data_structures.txt
+|_0B     21 Jun 22:04 dbms.txt
 
 
 
